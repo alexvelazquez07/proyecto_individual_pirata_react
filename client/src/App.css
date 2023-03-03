@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navegador {
+  background-color:#730498;
+  color: white;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.titulo {
+  margin-left: 470px;
+}
+.titulo-registrar {
+  margin-left: 370px;
+
+}
+.contenedor-principal {
+  height: 600px;
+  width: auto;
+  padding: 15px 15px;
+  background-color: #ff9900;
+}
+
+.subcontenedor {
+  height: 550px;
+  width: 1150px;
+  padding: 25px 25px;
+  margin-left: 50px;
+  background-color:white;
+}
+
+
+.button-agregar {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color:#085394;
+  padding: 20px 50px;
+  font-size: 20px;
+}
+
+.button-cerrar {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color:#089481;
+  padding: 20px 50px;
+  font-size: 20px;
+}
+
+.add-pirate {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color:#085394;
+  padding: 10px 25px;
+  font-size: 20px;
+  margin-left: 260px;
+}
+.button-view {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color:#085394;
+  padding: 20px 50px;
+  font-size: 15px;
+  margin-left: 180px;
+}
+
+.button-delete {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color:#cf2a27;
+  padding: 20px 50px;
+  font-size: 15px;
+  margin-left: 80px;
+}
+
+.button-registrar {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color:#085394;
+  padding: 20px 50px;
+  font-size: 15px;
+  margin-left: 180px;
+}
+
+.button-login {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  background-color:#085394;
+  padding: 20px 50px;
+  font-size: 15px;
+
+}
+
+.contenido {
+}
+.contenedor-blanco {
+  background-color: white;
+  width:auto;
+  height: 400px;
+  padding-left: 20px;
+}
+
+.contenedor-blanco-registrar {
+  background-color: white;
+  height: 500px;
+  padding: 40px;
+
+}
+
+.text-about{
+  text-align: center;
+}
+.contenido-name {
+  margin-left: 110px;
+  text-align: center;
+}
+
+.seccion-buttones {
+
+justify-content: space-between;
+
+
+}
+
+.imagenes {
+  width: 200px;
+  height: 155px;
+  
+}
+.imagenes-detalle {
+  width: 300px;
+  height: 355px;
+  
+}
+
+.ordenar {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+}
